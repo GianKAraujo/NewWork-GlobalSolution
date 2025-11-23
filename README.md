@@ -42,8 +42,7 @@ O projeto foi desenvolvido seguindo os requisitos de "Vanilla Web", sem uso de f
 
 ## 🔗 Links Importantes
 
-* **Repositório no GitHub:** https://github.com/GianKAraujo/career-ai-fiap
-* **Video Pitch:** https://youtube.com/link-do-seu-video (se tiver)
+* **Repositório no GitHub:**([https://github.com/GianKAraujo/NewWork-GlobalSolution)](https://github.com/GianKAraujo/NewWork-GlobalSolution)
 
 ## 📂 Estrutura de Pastas
 A organização do projeto segue as boas práticas de arquitetura Front-End:
