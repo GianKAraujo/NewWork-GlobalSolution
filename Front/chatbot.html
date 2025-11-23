@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente de Carreira - IA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    
+    <header>
+        <div class="container header-content">
+            <div class="logo">NewWork</div>
+            <nav>
+                <div class="menu-icon" onclick="toggleMenu()">☰</div>
+                <ul id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="chatbot.html">Assistente IA</a></li>
+                    <li><a href="roadmap.html">Roadmap</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="integrantes.html">Equipe</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contato.html" class="btn-nav">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="chat-layout">
+        <section class="chat-container">
+            <div class="chat-header">
+                <div class="bot-avatar">🤖</div>
+                <div class="bot-info">
+                    <h2>Agente de Carreira</h2>
+                    <span class="status">Online</span>
+                </div>
+            </div>
+
+            <div class="chat-box" id="chat-box">
+                <div class="message bot-message">
+                    <p>Olá! Sou sua IA de realocação profissional. Para começar, me diga: você já trabalha na área de tecnologia ou está começando do zero?</p>
+                    <span class="time">Agora</span>
+                </div>
+            </div>
+
+            <div class="chat-input-area">
+                <input type="text" id="user-input" placeholder="Digite sua resposta aqui..." autocomplete="off">
+                <button onclick="sendMessage()" id="send-btn">Enviar ➤</button>
+            </div>
+        </section>
+    </main>
+    <footer style="background: #0f172a; padding: 20px; text-align: center; border-top: 1px solid #334155; margin-top: auto;">
+        <p style="color: #94a3b8; font-size: 0.9rem;">&copy; 2025 NewWork - Global Solution FIAP</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
